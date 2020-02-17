@@ -24,6 +24,6 @@ if __name__ == "__main__":
               epochs=10,
               steps_per_epoch=10000 // 100
               )
-    test = np.random.choice(10, size=(1000, 2))
+    test = np.random.choice(100, size=(10, 2))
     print(test)
     print(model.predict(test))

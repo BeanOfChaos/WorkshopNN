@@ -15,7 +15,7 @@ if __name__ == "__main__":
     ys = np.sin(xs)
 
     model = Sequential()
-    model.add(Dense(100, activation="tanh", input_shape=(1,)))
+    model.add(Dense(30, activation="tanh", input_shape=(1,)))
     model.add(Dense(1))
     model.add(Activation("linear"))
 
